@@ -1,0 +1,73 @@
+@import "_lib/bootstrap";
+@import "components/button";
+@import "components/input";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+:root {
+  --first: #283739;
+  --second: #2c5d63;
+  --third: #a2c11c;
+  --fourth: #e0e0e0;
+
+  --bright-contrast-1: #f3f3f3;
+  --bright-contrast-2: #d0d0d0;
+  --bright-contrast-3: #a2a2a2;
+
+  --dark-contrast-1: #777777;
+  --dark-contrast-2: #565656;
+  --dark-contrast-3: #3d3d3d;
+}
+
+* {
+  font-family: sans-serif;
+  user-select: none;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+div.page {
+  width: 100%;
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
+}
+
+.mt-2 {
+  margin-top: 1.0rem;
+}
+
+.mt-3 {
+  margin-top: 1.5rem;
+}
+
+.mt-4 {
+  margin-top: 2.0rem;
+}
+
+.mt-5 {
+  margin-top: 2.5rem;
+}
+
+div.interact {
+  height: 50px;
+  width: 50px;
+  background-color: var(--third);
+  border-radius: 15px;
+  color: var(--first);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .2s;
+
+  &:hover {
+    opacity: .8;
+  }
+
+  i {
+    font-size: 22px;
+  }
+}
