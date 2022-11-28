@@ -20,6 +20,9 @@
                           <i class="bi bi-funnel"></i>
                         </div>
                         <div class="interact" style="margin-left: 10px">
+                          <i class="bi bi-star"></i>
+                        </div>
+                        <div class="interact" style="margin-left: 10px">
                           <i class="bi bi-plus-lg"></i>
                         </div>
                       </div>
